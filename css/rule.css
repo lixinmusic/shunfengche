@@ -1,0 +1,44 @@
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+	.rule-s {
+	font-size:26px;
+	}
+	.rule-top {font-size:28px;text-align:center;}
+	.rule-p {
+	font-size: 16px;
+	}
+}
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+	.rule-s {
+	font-size:28px;
+	}
+	.rule-top {font-size:28px;text-align:center;}
+	.rule-p {
+	font-size: 17px;
+	}
+}
+.rule-top {
+color:#4a4a48;
+font-size:20px;
+font-weight: bold;
+letter-spacing: 1px;
+text-align:center;
+margin:45px 0 4px;
+}
+.rule-s {
+color:#4a4a48;
+font-size:20px;
+font-weight: bold;
+letter-spacing: 1px;
+text-align:left;
+margin:60px 0 5px;
+}
+.rule-p {
+font-size: 15px;
+letter-spacing: 2px;
+text-align:left;
+color: #494846;
+margin:15px 0 4px;
+}
+.rule-pd {margin-top: 3px;}

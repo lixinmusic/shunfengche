@@ -1,0 +1,98 @@
+<!doctype html>
+
+	<html lang="en">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>关于我们</title>
+
+  <script type="text/javascript" src="js/lrtk.js"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+
+	  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/starter-template.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+
+</head>
+<body style="background:#f2f1ec"><!--   -->
+	<!-- ********header******** -->
+ <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">首页</a></li>
+            <li class="active"><a href="present.html">关于我们</a></li>
+            <li><a href="rule.html">更多</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- **************header end************ -->
+<br>
+ <div class="container-fluid">
+
+
+	<div class="jumbotron">
+  <h1>公司介绍</h1>
+  <br>
+  <p>鑫顺顺风车（www.xinshunkj.com）成立于2016年，隶属于黑龙江省庆安县鑫顺网络信息科技有限公司，是一个专注于打造在线顺风车的出行平台，随着社会人口的增长，交通的拥堵，出行的难度也随之增加，2016年3月，交通运输部不长杨传堂在两会上对不以盈利为目的的顺风车出行明确予以支持，并鼓励顺风车出行的方式。鑫顺出行传承着这一思想，主动引领交通与互联网的创新融合，共创文明出行、平安出行、绿色出行。</p>
+
+</div>
+
+<div class="jumbotron">
+  <h1>对外承接网站开发</h1>
+  <br>
+  <br>
+  <div class="row">
+  <div class="col-xs-6 col-sm-3 casked"><img src="images/putto1.jpg" class="img-responsive" alt="Responsive image"></div>
+  <div class="col-xs-6 col-sm-3 casked"><img src="images/putto2.jpg" class="img-responsive" alt="Responsive image"></div>
+
+ <!--  Add the extra clearfix for only the required viewport -->
+  <div class="clearfix visible-xs-block"></div>
+
+  <div class="col-xs-6 col-sm-3 casked"><img src="images/putto3.jpg" class="img-responsive" alt="Responsive image"></div>
+  <div class="col-xs-6 col-sm-3 casked"><img src="images/putto4.jpg" class="img-responsive" alt="Responsive image"></div>
+</div>
+</div> 
+
+
+</div>
+
+<!-- *******二维码扫一扫******* -->
+ <div id="KeFuDiv" class="KeFuDiv">
+  <div>
+    <div class="KeFuTitle">手机扫一扫</div>
+    <img src="images/myhouse.jpg" height="150px" border="0" usemap="#Map" style="cursor:move;" onmousedown="MoveDiv(KeFuDiv,event);" title="拖动">
+  </div>
+
+  <div class="KeFuList"></div>
+
+</div>
+
+</div>
+
+
+</body>
+<script>
+//初始位置
+gID("KeFuDiv").style.top = (document.documentElement.clientHeight - gID("KeFuDiv").offsetHeight) / 2 + "px";
+gID("KeFuDiv").style.left = document.documentElement.clientWidth - gID("KeFuDiv").offsetWidth + "px";
+//开始滚动
+ScrollDiv('KeFuDiv')
+</script>
+
+</html>
+
