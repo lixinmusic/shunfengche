@@ -77,5 +77,8 @@ body {
 .file .flexs .love img{
 	margin:0 auto;
 }
-
+.container-fluid .japt a img:hover{
+	border-bottom: 4px solid #fa3900;
+	 margin-top: -15px; 
+}
 
